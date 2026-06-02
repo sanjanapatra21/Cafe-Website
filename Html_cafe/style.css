@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(90deg,  slategray , tan ,snow);
+    font-family: Times New Roman;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+
+}
+a{
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+}
+/*home page*/
+#home h1{
+    background: linear-gradient(90deg ,darkkhaki ,teal);
+    padding: 15px;
+    width: 400px;
+    margin: 25px auto;
+    border-radius: 20%;
+    box-shadow: 0 0 10px black;
+    font-family: "Brush Script MT";
+}
+table{
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+img , iframe{
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+}
+/*tea page*/
+#tea h1 , #coffee h1 , #maggi h1 , #cd h1 , #ice h1,#cell h1 {
+    background: linear-gradient(90deg ,teal,darkolivegreen);
+    color: gold;
+    padding: 15px;
+    width: 400px;
+    margin: 25px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    font-family: "Copperplate";
+}
+table tr{
+    font-weight: bolder;
+}
+/*burger & sandwich*/
+#bs h1 , #pm h1 , #pc h1,#footer h1{
+    background: linear-gradient(90deg ,teal,darkolivegreen);
+    color: gold;
+    padding: 20px;
+    width: 800px;
+    margin: 25px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    font-family: "Copperplate";
+}
